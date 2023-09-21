@@ -1,0 +1,5 @@
+#latex-preview latex-js {
+    --marginleftwidth: 15%!important;
+    --marginrightwidth: 15%!important;
+    --textwidth: 70%!important;
+}

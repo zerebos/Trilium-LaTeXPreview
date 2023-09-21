@@ -1,0 +1,25 @@
+{
+  "name": "trilium-latexpreview",
+  "version": "0.1.0",
+  "description": "A widget for Trilium Notes to preview LaTeX notes.",
+  "main": "src/widget.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "pack": "tpack",
+    "send": "node scripts/send.js"
+  },
+  "author": "Zerebos",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/trilium": "npm:trilium-types@^0.1.1",
+    "dotenv": "^16.3.1",
+    "eslint": "^8.47.0",
+    "trilium-etapi": "^0.1.2",
+    "trilium-pack": "^0.1.1"
+  },
+  "dependencies": {
+    "latex.js": "^0.12.6"
+  }
+}
